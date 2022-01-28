@@ -3,11 +3,11 @@ var pipes = [];
 var score = 0;
 
 function setup() {
+  frameRate(60);
   createCanvas(400, 400);
   bird = new Bird();
   pipes.push(new Pipe());
   textSize(28);
-  
 }
 
 function draw() {
